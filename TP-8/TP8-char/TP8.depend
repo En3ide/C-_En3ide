@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1610636886 source:d:\info-reseaux\jeudi\tp-8\tp8\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+

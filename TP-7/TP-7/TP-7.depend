@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1607004122 source:d:\info-reseaux\jeudi\tp-7\tp-7\main.cpp
+	<iostream>
+
+1607804990 source:e:\info-reseaux\jeudi\tp-7\tp-7\main.cpp
+	<iostream>
+	<stdio.h>
+

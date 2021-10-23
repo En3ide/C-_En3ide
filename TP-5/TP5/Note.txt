@@ -1,0 +1,72 @@
+
+/*
+#include<stdio.h>
+#include<math.h>
+main(){
+       float a,b,c,d,r1,r2,x;
+       printf("\n\nCe programme resoud une equation du second degre");
+       printf("\nDu type ax^2+bx+c=0");
+       printf("\n\nEntrez la valeur de a: ", a);
+        scanf("%f", &a);
+       printf("\nEntrez la valeur de b: ", b);
+        scanf("%f", &b);
+       printf("\nEntrez la valeur de c: ", c);
+        scanf("%f", &c);
+       d =b*b-(4*a*c);
+       if(a==0){
+                if(b!=0){
+                         x=-c/b;
+                         printf("\nune racine simple: %f",x);
+                }
+                else if(c==0) printf("\ninfinité de racines");
+                     else printf("\npas de solutions");
+       }
+       else{
+                if(d>0){
+                        r1 =(b-sqrt(d))/(2*a);
+                        r2 =(-b-sqrt(d))/(2*a);
+                        printf("\nil y a deux solutions: %f %f",-r1,r2);
+                }
+                else{
+                     if(d==0){
+                              r1 =(-b)/(2*a);
+                              printf("\nil y a une solution: %f",r1);
+                     }
+                     else printf("\npas de racines reelles");
+                }
+       }
+       return 0;
+}
+*/
+
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float a, b, c, d, r1, r2;
+    cout <<"Equation du segond degre ax^2 + bx + c"<<endl;
+    cout << "Entrer la valeur A : ";
+    cin >>a;
+    cout << "Entrer la valeur B : ";
+    cin >>b;
+    cout << "Entrer la valeur c : ";
+    cin >>c;
+    d =b*b-(4*a*c);
+    cout <<d<<endl;
+    if (d<0) {
+        cout << "Delta est plus petit que 0, Donc aucune racine reel." <<endl;
+    }
+    if (d==0) {
+        cout << "Delta est egal a 0, donc 1 racine réel." <<endl<< "x=(-b)/(2*a)" ;
+        r1 =(-b)/(2*a);
+    }
+    if (d>0) {
+        cout << "Delta est plus grand que 0, Donc 2 racines reel." <<endl;
+        r1 =(b-sqrt(d))/(2*a);
+        r2 =(-b-sqrt(d))/(2*a);
+    }
+    return 0;
+}
