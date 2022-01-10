@@ -95,7 +95,7 @@ int main()
     int i=0, r=0, f=1;
     cout <<"Vous allez entrer 10 Entier"<<endl;
     for (; f<11; f++) {
-        cout <<"Entre l'entier n°"<<f<<endl;
+        cout <<"Entre l'entier nÂ°"<<f<<endl;
         cin >>r;
         i=i+r;
     }
@@ -106,7 +106,6 @@ int main()
 
 //Ex.5-2
 
-/*
 #include <iostream>
 
 using namespace std;
@@ -116,7 +115,7 @@ int main()
     int i=0, r=0, f=1, choixMenu;
     cout <<"Vous allez entrer 10 Entier"<<endl;
     for (; f<11; f++) {
-        cout <<"Entre l'entier n°"<<f<<endl;
+        cout <<"Entre l'entier nÂ°"<<f<<endl;
         cin >>r;
         i=i+r;
     }
@@ -146,4 +145,3 @@ int main()
         }}
     while (choixMenu<4);
 }
-*/
